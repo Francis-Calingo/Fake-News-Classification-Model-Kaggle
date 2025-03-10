@@ -1,4 +1,21 @@
 # PROJECT OVERVIEW: Kaggle's Fake News Detection Challenge (Classification Modelling with Python)
+
+## Table of Contents
+* [Introduction](#introduction)
+* [Code and Resources Used](#code-and-resources-used)
+* [Binary Classification Introduction](#binary-classification-introduction)
+* [Kaggle Dataset](#kaggle-dataset)
+* [Data Pre-Processing](#data-pre-processing)
+  * [Part 1: Column Operations](#part-1-column-operations)
+  * [Part 2: Natural Language Processing](#part-2-natural-language-processing)
+* [Training Different Models and Creating a Predictive Model](#training-different-models-and-creating-a-predictive-model)
+  * [Part 1: Train-Test Split](#part-1-train-test-split)
+  * [Part 2: Training Different Classification Models](#part-2-training-different-classification-models)
+  * [Part 3: Developing a Predictive Model](#part-3-developing-a-predictive-model)
+* [Discussion](#discussion)
+
+## Introduction
+  
   <ul>
     <li>Undertook Kaggle's Fake New Challenge, and created a binary classification model to detect fake news.</li>
     <li>Tested out the following classification models: Logistic Regression, SVM, Random Forest Classifier, K-Nearest Neighbour Classifier, Decision Tree Classifier.</li>
