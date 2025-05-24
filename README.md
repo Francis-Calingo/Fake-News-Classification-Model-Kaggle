@@ -14,7 +14,9 @@
   * [Part 3: Developing a Predictive Model](#part-3-developing-a-predictive-model)
 * [Discussion](#discussion)
 
-<details><summary><h2>Introduction</h2></summary> 
+---
+
+# Introduction
   
   <ul>
     <li>Undertook Kaggle's Fake New Challenge, and created a binary classification model to detect fake news.</li>
@@ -54,16 +56,16 @@
     </ul></li>
   </ul>
 
-</details>
+---
 
-<details><summary><h2>Binary Classification Introduction</h2></summary> 
+# Binary Classification Introduction
 
 <p>Classification is a type of supervised machine learning algorithm that attempts to correctly assign a label given an input. For example, in image classification, the machine learning model attempts to 
 label an image, such as whether the image input is that of a dog or a cat. What was just described is a classic example of binary classification, where the machine predicts whether the input belongs in one category or the other (i.e., one of possible two). Determining whether an article can be classified as fake news or not, as this project aims to do, is another example of binary classification.</p>
 
-</details>
+---
 
-<details><summary><h2>Kaggle Dataset</h2></summary> 
+# Kaggle Dataset
 
 The Kaggle dataset contains:
 <ul>
@@ -81,9 +83,9 @@ The training dataset has the following attributes:
 <li><b>label:</b> a label that marks the article as potentially unreliable (1=unreliable, 0=reliable)</li>
 </ul>
 
-</details>
+---
 
-<details><summary><h2>Data Pre-Processing</h2></summary> 
+# Data Pre-Processing
 
 We will be using the training dataset.
 
@@ -109,9 +111,9 @@ Machine learning algorithms are unable to completely understand the complexities
 <li><b>STEP 3:</b> Use the apply function on the new_df's "content" column.</li>
 </ul>
 
-</details>
+---
 
-<details><summary><h2>Training Different Models and Creating a Predictive Model</h2></summary> 
+# Training Different Models and Creating a Predictive Model
 
 #### Part 1: Train-Test Split
 Code snippet for setting X and Y for the train-test split:
@@ -181,10 +183,9 @@ Code snippet:
 
 ![image](https://github.com/user-attachments/assets/7fb16cb9-75bf-471f-8fe9-75aed1a4229b)
 
-</details>
+---
 
-<details><summary><h2>Discussion</h2></summary> 
+# Discussion
 
 <p>The model that has been build appears to be very accurate in detecting whether a news article can be classified as fake news or not. It will need refinements if it were to be reproducible and applied for news coverage beyond the Kaggle dataset. For instance, as the 2025 midterm elections and federal general elections in the Philippines and Canada, respectively, are approaching, it is of utmost importance to develop mechanisms to quickly detect fake news. It has been argued that the proliferation of fakes news was a major factor in securing President Ferdinand Marcos Jr.'s controversial victory in the 2022 Philippine Presidential Election. In the age of advancements in Deepfake technologies and Generative AI, the ability to detect fake news must outpace the proliferation of it.</p>
 
-</details>
