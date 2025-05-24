@@ -201,3 +201,6 @@ Code snippet:
 
 <p>The model that has been build appears to be very accurate in detecting whether a news article can be classified as fake news or not. It will need refinements if it were to be reproducible and applied for news coverage beyond the Kaggle dataset. For instance, as the 2025 midterm elections and federal general elections in the Philippines and Canada, respectively, are approaching, it is of utmost importance to develop mechanisms to quickly detect fake news. It has been argued that the proliferation of fakes news was a major factor in securing President Ferdinand Marcos Jr.'s controversial victory in the 2022 Philippine Presidential Election. In the age of advancements in Deepfake technologies and Generative AI, the ability to detect fake news must outpace the proliferation of it.</p>
 
+[<b>Back to Table of Contents</b>](#table-of-contents)
+
+
