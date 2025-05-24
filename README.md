@@ -24,9 +24,11 @@
     <li>Link to Kaggle's Fake News Challenge, and downloadable data sets: https://www.kaggle.com/competitions/fake-news/overview </li>
   </ul>
 
-</details>
+[<b>Back to Table of Contents</b>](#table-of-contents)
 
-<details><summary><h2>Code and Resources Used</h2></summary> 
+---
+
+# Code and Resources Used
 
   <ul>
     <li><b>IDEs Used:</b> Google Colab, Jupyter Notebook</li>
@@ -56,12 +58,16 @@
     </ul></li>
   </ul>
 
+[<b>Back to Table of Contents</b>](#table-of-contents)
+
 ---
 
 # Binary Classification Introduction
 
 <p>Classification is a type of supervised machine learning algorithm that attempts to correctly assign a label given an input. For example, in image classification, the machine learning model attempts to 
 label an image, such as whether the image input is that of a dog or a cat. What was just described is a classic example of binary classification, where the machine predicts whether the input belongs in one category or the other (i.e., one of possible two). Determining whether an article can be classified as fake news or not, as this project aims to do, is another example of binary classification.</p>
+
+[<b>Back to Table of Contents</b>](#table-of-contents)
 
 ---
 
@@ -82,6 +88,8 @@ The training dataset has the following attributes:
 <li><b>text:</b> the text of the article; could be incomplete</li>
 <li><b>label:</b> a label that marks the article as potentially unreliable (1=unreliable, 0=reliable)</li>
 </ul>
+
+[<b>Back to Table of Contents</b>](#table-of-contents)
 
 ---
 
@@ -110,6 +118,8 @@ Machine learning algorithms are unable to completely understand the complexities
 
 <li><b>STEP 3:</b> Use the apply function on the new_df's "content" column.</li>
 </ul>
+
+[<b>Back to Table of Contents</b>](#table-of-contents)
 
 ---
 
@@ -182,6 +192,8 @@ Therefore, logistic regression has been determined to be the best classification
 Code snippet:
 
 ![image](https://github.com/user-attachments/assets/7fb16cb9-75bf-471f-8fe9-75aed1a4229b)
+
+[<b>Back to Table of Contents</b>](#table-of-contents)
 
 ---
 
